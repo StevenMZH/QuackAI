@@ -1,0 +1,133 @@
+/* SIDE PANEL */
+main .side-panel {
+    width: clamp(300px,30vw,450px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 15px 5px 5px 5px;
+    max-height: 100%;  
+    overflow-y: auto;   
+    overflow-x: hidden;  
+}
+
+/* Text */
+.side-panel p {
+    font-weight: 500;
+    font-size: 14px;
+}
+.side-panel .object-props p {
+    font-weight: 400;
+    font-size: 13px;
+}
+.side-panel .prop-group p{
+    font-weight: 400;
+    font-size: 12px;
+}
+/* Button Text */
+.side-panel button {
+    font-weight: 600;
+    font-size: 13px;
+}
+.side-panel input, .side-panel select, .side-panel .card{
+    font-weight: 400;
+    font-size: 12px;
+}
+.side-panel .object-props button {
+    font-weight: 500;
+    font-size: 11px;
+    padding: 8px;
+}
+
+
+/* OBJECT-PROPS */
+.side-panel .object-selected > .prop-button p {
+    color: hsl(207.2, 69.1%, 45.69%);
+}
+.dark .side-panel .object-selected > .prop-button p {
+    color: hsl(218.14, 62.11%, 62.75%);
+}
+.side-panel .object-selected > .prop-button img {
+    filter: invert(50%) sepia(60%) saturate(10000%) hue-rotate(194deg) brightness(100%) contrast(100%);
+}
+.dark .side-panel .object-selected > .prop-button .icon {
+    filter: invert(70%) sepia(20%) saturate(10000%) hue-rotate(194deg) brightness(100%) contrast(100%);
+}
+
+.side-panel .object .prop-button  {
+    background-color: rgba(255, 255, 255, 0);
+    border: #fff0;
+}
+.object-props{
+    padding: 0 0 10px 0;
+}
+.side-panel .object .object-delete {
+    width: 80%;
+    margin-top: 10px;
+    background-color: hwb(0 42% 0%); 
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* PROPS CONTAINER */
+.side-panel .prop-group {
+    margin-bottom: 10px;
+}
+.side-panel .prop-container {
+    padding: 10px 0px;
+}
+
+/* PROPS */
+.side-panel .props .card {
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.side-panel .props .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;   
+}
+.dark .side-panel .props .icon {
+    filter: invert(100%) brightness(100%);
+}
+
+.side-panel .props .icon-size2 {
+    width: 16px;
+    height: 16px;
+}
+.side-panel .props .icon-size3 img {
+    width: 15px;
+    height: 15px;
+}
+
+/* PROPS EXTENSIONS */
+.side-panel .prop-data {
+    padding: 0px 0 5px 0;
+}
+.side-panel .prop-data select{
+    width: 70%;
+    padding: 5px;
+}
+
+.side-panel .prop-title {
+    padding: 5px 10px;
+}
+
+.side-panel .delete-button{
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.side-panel .icon.delete-icon{
+    width: 16px;
+    height: 16px;
+}
+.dark .side-panel .props .icon.delete-icon.icon {
+    filter: invert(100%) brightness(80%);
+}

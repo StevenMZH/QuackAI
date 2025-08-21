@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-main: "Roboto", sans-serif;
+
+  --bg-dark: hsl(243, 10%, 8%);
+  --bg: hsl(247, 5%, 15%);
+  --bg-light: hsl(247, 10%, 20%);
+  --border: hsl(247, 5%, 20%);
+
+  --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0% 0.15);
+
+  --text-main: hsl(0 0 95%);
+  --text-sec: hsl(0 0 80%); 
+
+  --highlight1: hsl(44.46, 92.05%, 70.39%);
+  --highlight2: hsl(194, 92%, 70%);
+  --highlight2: hsl(201, 79%, 61%);
+  --text-highlight: hsl(0 0 25%); 
+  --text-highlight2: hsl(0 0 90%); 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-dark: hsl(243, 10%, 8%);
+    --bg: hsl(247, 5%, 15%);
+    --bg-light: hsl(247, 10%, 20%);
+    --border: hsl(247, 5%, 20%);
+
+    --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0% 0.15);
+
+    --text-main: hsl(0 0 95%);
+    --text-sec: hsl(0 0 80%); 
+
+    --highlight1: hsl(44.46, 92.05%, 70.39%);
+    --highlight2: hsl(201, 79%, 61%);
+    --text-highlight: hsl(0 0 25%);  
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-dark: hsl(32, 24%, 85%);
+    --bg: hsl(0 0 95%);
+    --bg-light: hsl(0 0 100%);
+    --border: hsl(0, 0%, 80%, 30%);
+
+    --text-main: hsl(0 0 5%);
+    --text-sec: hsl(0 0 30%);
+
+    /* --highlight1: hsl(35, 68%, 48%); */
+    --highlight1: hsl(44.46, 92.05%, 70.39%);
+    --highlight2: hsl(201, 79%, 61%);
+    --text-highlight: hsl(0 0 25%); 
+}
+}
+
+body.dark {
+  --bg-dark: hsl(243, 10%, 8%);
+  --bg: hsl(247, 5%, 15%);
+  --bg-light: hsl(247, 10%, 20%);
+  --border: hsl(247, 5%, 20%);
+
+  --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0% 0.15);
+
+  --text-main: hsl(0 0 95%);
+  --text-sec: hsl(0 0 80%); 
+
+  --highlight1: hsl(44.46, 92.05%, 70.39%);
+  --highlight2: hsl(201, 79%, 61%);
+  --text-highlight: hsl(0 0 25%); 
+}
+
+body.light {
+  --bg-dark: hsl(32, 24%, 85%);
+  --bg: hsl(0 0 95%);
+  --bg-light: hsl(0 0 100%);
+  --border: hsl(0, 0%, 80%, 30%);
+
+  --text-main: hsl(0 0 5%);
+  --text-sec: hsl(0 0 30%);
+
+  --highlight1: hsl(44.46, 92.05%, 70.39%);
+  --highlight2: hsl(201, 79%, 61%);
+  --text-highlight: hsl(0 0 25%); 
+}
