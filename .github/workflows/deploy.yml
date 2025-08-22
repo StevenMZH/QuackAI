@@ -76,7 +76,7 @@ jobs:
           username: ${{ secrets.DEV_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "."
-          target: "~/quackternion-dev"
+          target: "~/quack-ai-dev"
 
 
       - name: Deploy on dev server
@@ -86,7 +86,7 @@ jobs:
           username: ${{ secrets.DEV_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd quackternion-dev
+            cd quack-ai-dev
             
             echo "SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}" >> .env.prod
             echo "DEBUG=${{ secrets.DJANGO_DEBUG }}" >> .env.prod
@@ -122,7 +122,7 @@ jobs:
           username: ${{ secrets.PROD_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "."
-          target: "~/quackternion"
+          target: "~/quack-ai"
 
 
       - name: Deploy on prod server
@@ -132,7 +132,7 @@ jobs:
           username: ${{ secrets.PROD_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd quackternion
+            cd quackt-ai
 
             echo "SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}" >> .env.prod
             echo "DEBUG=${{ secrets.DJANGO_DEBUG }}" >> .env.prod

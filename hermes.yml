@@ -1,14 +1,14 @@
 servers:
-  smooth-server:
-    server_name: smooth-server
+  host-server:
+    server_name: host-server
     server_credentials: .env.hermes
     env: .env.dev
 
     # apps    
     apps:
       Server-Playground:
-        app_name: Server-Playground 
-        repository: https://github.com/StevenMZH/Armlab.git
+        app_name: QuackAI 
+        repository: https://github.com/StevenMZH/QuackAI.git
         branch: main
         env: .env.dev
         services: "docker-compose.yml"
