@@ -132,7 +132,7 @@ jobs:
           username: ${{ secrets.PROD_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd quackt-ai
+            cd quack-ai
 
             echo "SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}" >> .env.prod
             echo "DEBUG=${{ secrets.DJANGO_DEBUG }}" >> .env.prod
