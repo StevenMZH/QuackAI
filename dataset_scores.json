@@ -1,0 +1,1924 @@
+[
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "D",
+                        "C",
+                        "B",
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "A",
+                        "C",
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "E",
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "E",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "D",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "C",
+                        "E",
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.523,
+            "most_blocks_min_cycle": 0.523,
+            "most_blocks_fewest_assignments": 0.5228,
+            "most_blocks_most_assignments": 0.5226,
+            "least_blocks_max_cycle": 0.571,
+            "least_blocks_min_cycle": 0.5711,
+            "least_blocks_fewest_assignments": 0.571,
+            "least_blocks_most_assignments": 0.571,
+            "max_interval_max_cycle": 0.547,
+            "max_interval_min_cycle": 0.547,
+            "max_interval_fewest_assignments": 0.5467,
+            "max_interval_most_assignments": 0.5468,
+            "min_interval_max_cycle": 0.547,
+            "min_interval_min_cycle": 0.5709,
+            "min_interval_fewest_assignments": 0.5708,
+            "min_interval_most_assignments": 0.5708,
+            "fewest_resource_options_max_cycle": 0.571,
+            "fewest_resource_options_min_cycle": 0.5952,
+            "fewest_resource_options_fewest_assignments": 0.5948,
+            "fewest_resource_options_most_assignments": 0.5948,
+            "most_resource_options_max_cycle": 0.547,
+            "most_resource_options_min_cycle": 0.5472,
+            "most_resource_options_fewest_assignments": 0.5468,
+            "most_resource_options_most_assignments": 0.5468
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "B",
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "E"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "E",
+                        "C",
+                        "D",
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "E",
+                        "C"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "D",
+                        "A",
+                        "C",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "C",
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "E"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A",
+                        "C",
+                        "B"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "C",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.7546,
+            "most_blocks_min_cycle": 0.7544,
+            "most_blocks_fewest_assignments": 0.7784,
+            "most_blocks_most_assignments": 0.7543,
+            "least_blocks_max_cycle": 0.8026,
+            "least_blocks_min_cycle": 0.8028,
+            "least_blocks_fewest_assignments": 0.8026,
+            "least_blocks_most_assignments": 0.8026,
+            "max_interval_max_cycle": 0.7552,
+            "max_interval_min_cycle": 0.772,
+            "max_interval_fewest_assignments": 0.772,
+            "max_interval_most_assignments": 0.7784,
+            "min_interval_max_cycle": 0.7788,
+            "min_interval_min_cycle": 0.7786,
+            "min_interval_fewest_assignments": 0.7784,
+            "min_interval_most_assignments": 0.7784,
+            "fewest_resource_options_max_cycle": 0.7786,
+            "fewest_resource_options_min_cycle": 0.7545,
+            "fewest_resource_options_fewest_assignments": 0.7544,
+            "fewest_resource_options_most_assignments": 0.7546,
+            "most_resource_options_max_cycle": 0.772,
+            "most_resource_options_min_cycle": 0.7722,
+            "most_resource_options_fewest_assignments": 0.7644,
+            "most_resource_options_most_assignments": 0.7596
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "E",
+                        "B",
+                        "A",
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "E",
+                        "D",
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D",
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "C",
+                        "E",
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A",
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.6369,
+            "most_blocks_min_cycle": 0.6369,
+            "most_blocks_fewest_assignments": 0.6367,
+            "most_blocks_most_assignments": 0.6367,
+            "least_blocks_max_cycle": 0.6851,
+            "least_blocks_min_cycle": 0.6851,
+            "least_blocks_fewest_assignments": 0.685,
+            "least_blocks_most_assignments": 0.6849,
+            "max_interval_max_cycle": 0.6609,
+            "max_interval_min_cycle": 0.6611,
+            "max_interval_fewest_assignments": 0.6609,
+            "max_interval_most_assignments": 0.6608,
+            "min_interval_max_cycle": 0.6611,
+            "min_interval_min_cycle": 0.6369,
+            "min_interval_fewest_assignments": 0.6607,
+            "min_interval_most_assignments": 0.6608,
+            "fewest_resource_options_max_cycle": 0.6851,
+            "fewest_resource_options_min_cycle": 0.6849,
+            "fewest_resource_options_fewest_assignments": 0.6849,
+            "fewest_resource_options_most_assignments": 0.6849,
+            "most_resource_options_max_cycle": 0.6851,
+            "most_resource_options_min_cycle": 0.6851,
+            "most_resource_options_fewest_assignments": 0.6849,
+            "most_resource_options_most_assignments": 0.6849
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "A",
+                        "B",
+                        "D",
+                        "C",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "E",
+                        "C",
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "C",
+                        "B",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "B",
+                        "C",
+                        "E"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "B",
+                        "E"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.4949,
+            "most_blocks_min_cycle": 0.4949,
+            "most_blocks_fewest_assignments": 0.4947,
+            "most_blocks_most_assignments": 0.4944,
+            "least_blocks_max_cycle": 0.5671,
+            "least_blocks_min_cycle": 0.5671,
+            "least_blocks_fewest_assignments": 0.5669,
+            "least_blocks_most_assignments": 0.5669,
+            "max_interval_max_cycle": 0.5431,
+            "max_interval_min_cycle": 0.5431,
+            "max_interval_fewest_assignments": 0.5429,
+            "max_interval_most_assignments": 0.5428,
+            "min_interval_max_cycle": 0.5189,
+            "min_interval_min_cycle": 0.5189,
+            "min_interval_fewest_assignments": 0.5187,
+            "min_interval_most_assignments": 0.5187,
+            "fewest_resource_options_max_cycle": 0.5429,
+            "fewest_resource_options_min_cycle": 0.5429,
+            "fewest_resource_options_fewest_assignments": 0.5427,
+            "fewest_resource_options_most_assignments": 0.5429,
+            "most_resource_options_max_cycle": 0.5431,
+            "most_resource_options_min_cycle": 0.5431,
+            "most_resource_options_fewest_assignments": 0.5427,
+            "most_resource_options_most_assignments": 0.5428
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "D",
+                        "E",
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "D",
+                        "B",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "A",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "A",
+                        "D"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "A",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "D",
+                        "B",
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "B",
+                        "C",
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "B",
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "A",
+                        "C",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.663,
+            "most_blocks_min_cycle": 0.6632,
+            "most_blocks_fewest_assignments": 0.663,
+            "most_blocks_most_assignments": 0.663,
+            "least_blocks_max_cycle": 0.7034,
+            "least_blocks_min_cycle": 0.6712,
+            "least_blocks_fewest_assignments": 0.7031,
+            "least_blocks_most_assignments": 0.7032,
+            "max_interval_max_cycle": 0.5871,
+            "max_interval_min_cycle": 0.5871,
+            "max_interval_fewest_assignments": 0.5869,
+            "max_interval_most_assignments": 0.5867,
+            "min_interval_max_cycle": 0.7112,
+            "min_interval_min_cycle": 0.711,
+            "min_interval_fewest_assignments": 0.711,
+            "min_interval_most_assignments": 0.687,
+            "fewest_resource_options_max_cycle": 0.7112,
+            "fewest_resource_options_min_cycle": 0.6712,
+            "fewest_resource_options_fewest_assignments": 0.6794,
+            "fewest_resource_options_most_assignments": 0.7112,
+            "most_resource_options_max_cycle": 0.6632,
+            "most_resource_options_min_cycle": 0.6109,
+            "most_resource_options_fewest_assignments": 0.6228,
+            "most_resource_options_most_assignments": 0.6628
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "E",
+                        "D",
+                        "A",
+                        "C"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "E",
+                        "D"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "C"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "A",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "C",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D",
+                        "A",
+                        "E",
+                        "C",
+                        "B"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "E",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "A",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "E",
+                        "A",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.743,
+            "most_blocks_min_cycle": 0.767,
+            "most_blocks_fewest_assignments": 0.767,
+            "most_blocks_most_assignments": 0.7432,
+            "least_blocks_max_cycle": 0.7672,
+            "least_blocks_min_cycle": 0.7672,
+            "least_blocks_fewest_assignments": 0.767,
+            "least_blocks_most_assignments": 0.767,
+            "max_interval_max_cycle": 0.7672,
+            "max_interval_min_cycle": 0.7672,
+            "max_interval_fewest_assignments": 0.767,
+            "max_interval_most_assignments": 0.767,
+            "min_interval_max_cycle": 0.7672,
+            "min_interval_min_cycle": 0.7672,
+            "min_interval_fewest_assignments": 0.767,
+            "min_interval_most_assignments": 0.767,
+            "fewest_resource_options_max_cycle": 0.7672,
+            "fewest_resource_options_min_cycle": 0.7672,
+            "fewest_resource_options_fewest_assignments": 0.767,
+            "fewest_resource_options_most_assignments": 0.7672,
+            "most_resource_options_max_cycle": 0.7672,
+            "most_resource_options_min_cycle": 0.7672,
+            "most_resource_options_fewest_assignments": 0.7671,
+            "most_resource_options_most_assignments": 0.7672
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "E"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "E",
+                        "C",
+                        "B",
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "A",
+                        "D"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "D",
+                        "C",
+                        "E",
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "A",
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "C",
+                        "A",
+                        "E",
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "E",
+                        "C",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.6684,
+            "most_blocks_min_cycle": 0.6684,
+            "most_blocks_fewest_assignments": 0.644,
+            "most_blocks_most_assignments": 0.6682,
+            "least_blocks_max_cycle": 0.7164,
+            "least_blocks_min_cycle": 0.7164,
+            "least_blocks_fewest_assignments": 0.7162,
+            "least_blocks_most_assignments": 0.6921,
+            "max_interval_max_cycle": 0.6924,
+            "max_interval_min_cycle": 0.7164,
+            "max_interval_fewest_assignments": 0.7162,
+            "max_interval_most_assignments": 0.7162,
+            "min_interval_max_cycle": 0.6924,
+            "min_interval_min_cycle": 0.6924,
+            "min_interval_fewest_assignments": 0.6921,
+            "min_interval_most_assignments": 0.6919,
+            "fewest_resource_options_max_cycle": 0.6924,
+            "fewest_resource_options_min_cycle": 0.6924,
+            "fewest_resource_options_fewest_assignments": 0.6922,
+            "fewest_resource_options_most_assignments": 0.6922,
+            "most_resource_options_max_cycle": 0.6924,
+            "most_resource_options_min_cycle": 0.6924,
+            "most_resource_options_fewest_assignments": 0.6919,
+            "most_resource_options_most_assignments": 0.692
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "A",
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "B",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B",
+                        "C",
+                        "A",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "E",
+                        "C",
+                        "D"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "C",
+                        "D",
+                        "E",
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D",
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "D",
+                        "C",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "E",
+                        "C",
+                        "A"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "A"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.5871,
+            "most_blocks_min_cycle": 0.5869,
+            "most_blocks_fewest_assignments": 0.5867,
+            "most_blocks_most_assignments": 0.5869,
+            "least_blocks_max_cycle": 0.6591,
+            "least_blocks_min_cycle": 0.6591,
+            "least_blocks_fewest_assignments": 0.6588,
+            "least_blocks_most_assignments": 0.6591,
+            "max_interval_max_cycle": 0.6351,
+            "max_interval_min_cycle": 0.6591,
+            "max_interval_fewest_assignments": 0.6349,
+            "max_interval_most_assignments": 0.6349,
+            "min_interval_max_cycle": 0.6351,
+            "min_interval_min_cycle": 0.6351,
+            "min_interval_fewest_assignments": 0.6349,
+            "min_interval_most_assignments": 0.6347,
+            "fewest_resource_options_max_cycle": 0.6591,
+            "fewest_resource_options_min_cycle": 0.6591,
+            "fewest_resource_options_fewest_assignments": 0.6588,
+            "fewest_resource_options_most_assignments": 0.6589,
+            "most_resource_options_max_cycle": 0.6109,
+            "most_resource_options_min_cycle": 0.6109,
+            "most_resource_options_fewest_assignments": 0.6107,
+            "most_resource_options_most_assignments": 0.6107
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "E",
+                        "B",
+                        "C"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "B",
+                        "A",
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "D",
+                        "A"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "A",
+                        "C"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "B",
+                        "D",
+                        "E",
+                        "A",
+                        "C"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "B",
+                        "D",
+                        "C",
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "C",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "E",
+                        "C",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.8113,
+            "most_blocks_min_cycle": 0.8316,
+            "most_blocks_fewest_assignments": 0.7872,
+            "most_blocks_most_assignments": 0.8316,
+            "least_blocks_max_cycle": 0.7661,
+            "least_blocks_min_cycle": 0.7661,
+            "least_blocks_fewest_assignments": 0.7889,
+            "least_blocks_most_assignments": 0.7661,
+            "max_interval_max_cycle": 0.8318,
+            "max_interval_min_cycle": 0.8316,
+            "max_interval_fewest_assignments": 0.8316,
+            "max_interval_most_assignments": 0.8113,
+            "min_interval_max_cycle": 0.8113,
+            "min_interval_min_cycle": 0.8113,
+            "min_interval_fewest_assignments": 0.8113,
+            "min_interval_most_assignments": 0.8113,
+            "fewest_resource_options_max_cycle": 0.8316,
+            "fewest_resource_options_min_cycle": 0.8316,
+            "fewest_resource_options_fewest_assignments": 0.8315,
+            "fewest_resource_options_most_assignments": 0.8316,
+            "most_resource_options_max_cycle": 0.7652,
+            "most_resource_options_min_cycle": 0.7652,
+            "most_resource_options_fewest_assignments": 0.7514,
+            "most_resource_options_most_assignments": 0.7181
+        }
+    },
+    {
+        "input": {
+            "blocks": 5,
+            "intervals": 8,
+            "tasks": [
+                {
+                    "name": "T1",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "C",
+                        "E",
+                        "A",
+                        "D",
+                        "B"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T2",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "C",
+                        "B",
+                        "D"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "T3",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T4",
+                    "time_blocks": 3,
+                    "compatible_tags": [
+                        "E",
+                        "B"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T5",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D",
+                        "B",
+                        "C",
+                        "A"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T6",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "B",
+                        "E",
+                        "D"
+                    ],
+                    "max_per_cicle": 3,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T7",
+                    "time_blocks": 4,
+                    "compatible_tags": [
+                        "A",
+                        "B",
+                        "C",
+                        "E",
+                        "D"
+                    ],
+                    "max_per_cicle": 5,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T8",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 2,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T9",
+                    "time_blocks": 1,
+                    "compatible_tags": [
+                        "E",
+                        "C"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "T10",
+                    "time_blocks": 2,
+                    "compatible_tags": [
+                        "A",
+                        "E",
+                        "B",
+                        "D",
+                        "C"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                }
+            ],
+            "resources": [
+                {
+                    "name": "R1",
+                    "tags": [
+                        "A",
+                        "E"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R2",
+                    "tags": [
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    "max_per_cicle": 4,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R3",
+                    "tags": [
+                        "D",
+                        "E",
+                        "A"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 2
+                },
+                {
+                    "name": "R4",
+                    "tags": [
+                        "A",
+                        "B"
+                    ],
+                    "max_per_cicle": 6,
+                    "max_per_interval": 1
+                },
+                {
+                    "name": "R5",
+                    "tags": [
+                        "D"
+                    ],
+                    "max_per_cicle": 1,
+                    "max_per_interval": 1
+                }
+            ]
+        },
+        "output": {
+            "most_blocks_max_cycle": 0.6334,
+            "most_blocks_min_cycle": 0.6334,
+            "most_blocks_fewest_assignments": 0.6332,
+            "most_blocks_most_assignments": 0.6332,
+            "least_blocks_max_cycle": 0.7056,
+            "least_blocks_min_cycle": 0.7055,
+            "least_blocks_fewest_assignments": 0.7056,
+            "least_blocks_most_assignments": 0.7054,
+            "max_interval_max_cycle": 0.6816,
+            "max_interval_min_cycle": 0.6816,
+            "max_interval_fewest_assignments": 0.6812,
+            "max_interval_most_assignments": 0.6814,
+            "min_interval_max_cycle": 0.6576,
+            "min_interval_min_cycle": 0.6576,
+            "min_interval_fewest_assignments": 0.6572,
+            "min_interval_most_assignments": 0.6572,
+            "fewest_resource_options_max_cycle": 0.6816,
+            "fewest_resource_options_min_cycle": 0.6816,
+            "fewest_resource_options_fewest_assignments": 0.6814,
+            "fewest_resource_options_most_assignments": 0.6814,
+            "most_resource_options_max_cycle": 0.6574,
+            "most_resource_options_min_cycle": 0.6575,
+            "most_resource_options_fewest_assignments": 0.6574,
+            "most_resource_options_most_assignments": 0.6574
+        }
+    }
+]
