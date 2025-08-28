@@ -8,6 +8,7 @@
 @import url('./styles/PropsPanel.css');
 
 @import url('./styles/ThemeSwitch.css');
+@import url('./styles/fileUploader.css');
 
 div {
     border: 0;
