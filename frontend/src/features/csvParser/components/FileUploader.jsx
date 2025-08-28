@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
+import { parseCsvFileToJson } from "../helpers/parser";
 
 const FileUploader = () => {
   const [file, setFile] = useState(null);
@@ -17,9 +18,8 @@ const FileUploader = () => {
 
   const handleUpload = async () => {
     if (!file) return alert("Select a file first");
-
-    const formData = new FormData();
-    formData.append("file", file);
+    const jsonData = await parseCsvFileToJson(file);
+    console.log("Parsed JSON data:", jsonData);
   };
 
   return (
