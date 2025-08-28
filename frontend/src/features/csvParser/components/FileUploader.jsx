@@ -29,13 +29,12 @@ const FileUploader = () => {
         className={"p-6 cursor-pointer"}
       >
         <input {...getInputProps()} />
-        {isDragActive ? (
-          <p className="home-txt">Drop the file...</p>
-        ) : (
-          <p className="home-txt">
-            Drop a file here or click to select it
-          </p>
-        )}
+        <p
+          className={`home-txt${isDragActive ? ' text-white' : ''}`}
+          style={{minHeight: '1.5em'}}
+        >
+          Drop a file here or click to select it
+        </p>
       </div>
 
       {file && (
