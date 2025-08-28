@@ -4,6 +4,7 @@
 
 @import url('./styles/home.css');
 @import url('./styles/schedule.css');
+@import url('./styles/sidepanel.css');
 
 @import url('./styles/PropsPanel.css');
 
@@ -27,6 +28,7 @@ header{
     justify-content: start;
     align-items: center;
     padding: 15px;
+    font-size: 12px;
 }
 
 body, main {

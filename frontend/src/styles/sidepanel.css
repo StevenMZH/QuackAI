@@ -1,0 +1,27 @@
+.sidebar-container {
+    position: absolute;
+    display: flex;
+    z-index: 100;
+    flex-direction: row-reverse;
+}
+
+.sidebar-container button{
+    background-color: #00000060;
+    border-radius: 0;
+    padding: 0;
+    display: inline-flex;
+}
+.sidebar-container > button:hover::before{
+    background-color: #00000000;
+}
+
+.sidebar-container > .card {
+    position: absolute;
+    z-index: 200;
+    width: 350px;
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    padding: 25px 25px;
+}
