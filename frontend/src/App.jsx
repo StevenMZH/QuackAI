@@ -8,7 +8,6 @@ import MobileLayout from "./layouts/MobileLayout";
 import ScheduleDashboard from "./pages/Schedule";
 
 
-const Landing = lazy(() => import("./pages/Landing"));
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {
@@ -32,12 +31,6 @@ function App() {
         } 
         />
 
-        <Route path="/style" element={
-            <Suspense fallback={<div></div>}>
-              <Landing />
-            </Suspense> 
-        } 
-        />
        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
