@@ -10,7 +10,6 @@ import ScheduleDashboard from "./pages/Schedule";
 
 const Landing = lazy(() => import("./pages/Landing"));
 const Home = lazy(() => import("./pages/Home"));
-const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
   const isMobile = useMediaQuery({ maxWidth: 768 });
