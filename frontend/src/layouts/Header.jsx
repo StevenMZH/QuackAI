@@ -9,13 +9,12 @@ export function Header() {
     return (
         <>
             <div className="full-w row-left gap5">
-                <img src="duck.png" alt="Logo" className="logo"/>
+                <img src="/duck.png" alt="Logo" className="logo"/>
                 <h1>Quack AI</h1>            
             </div>
             <div className="full-w row-right gap10">
                 <ThemeSwitch />
             </div>
-            {/* {error && <p className="error-text">Error: {error.message}</p>} */}
         </>
     );
 }
