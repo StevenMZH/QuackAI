@@ -2,7 +2,7 @@ import ScheduleCell from "./ScheduleCell";
 
 export function Schedule({ blocks, intervals, grid, className = "" }) {
   return (
-    <div className={`card scene ${className}`}>
+    <div className={`card schedule-container ${className}`}>
       <div
         className="schedule-grid grid"
         style={{
