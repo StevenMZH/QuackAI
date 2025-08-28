@@ -1,9 +1,8 @@
-import SceneManager from "../components/SceneManager";
-
 export function Home() {
   return (
-    <div className="full-view flex row gap10">
-        <SceneManager/>
+    <div className="home-container full-view flex card">
+      <img src="home/schedule_img.svg" alt="home image" className="home-img"/>
+      <h2 className="home-txt">Drop your CSV file to Schedule your Tasks</h2>    
     </div>
   );
 }

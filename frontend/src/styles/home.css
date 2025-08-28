@@ -1,0 +1,21 @@
+.home-container {
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img {
+    height: 70%;
+    width: auto;
+}
+
+.home-txt {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--text-primary);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: var(--highlight1);
+}

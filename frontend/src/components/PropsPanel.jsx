@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SimObject } from "../features/PropsPanel/components/SimObject";
 
-export function PropsPanel({ objects, setObjects, finalValues }) {
+export function PropsPanel({ objects, setObjects}) {
   const [openId, setOpenId] = useState(null);
 
   const handleAddObject = () => {

@@ -5,6 +5,7 @@ import { Navigate } from "react-router-dom";
 
 import MainLayout from "./layouts/MainLayout";
 import MobileLayout from "./layouts/MobileLayout";
+import ScheduleDashboard from "./pages/Schedule";
 
 
 const Landing = lazy(() => import("./pages/Landing"));
@@ -24,7 +25,14 @@ function App() {
             </Suspense>
           }
         />
-        
+
+        <Route path="/schedule" element={
+            <Suspense fallback={<div></div>}>
+              <ScheduleDashboard/>
+            </Suspense> 
+        } 
+        />
+
         <Route path="/style" element={
             <Suspense fallback={<div></div>}>
               <Landing />

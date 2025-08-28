@@ -1,4 +1,4 @@
-from dataclasses.scheduable import Scheduable
+from core.data_processing.dataclasses.scheduable import Scheduable
 
 class Task(Scheduable):
     def __init__(self, name:str, interval_blocks:int, cicle_intervals:int, max_per_cicle:int, min_per_cicle:int, max_per_interval:int, min_per_interval:int, time_blocks:int, chooseable_resources:dict):

@@ -1,6 +1,6 @@
-from dataclasses.manager import TaskResourceManager
-from dataclasses.task import Task
-from dataclasses.resourse import Resource
+from core.data_processing.dataclasses.manager import TaskResourceManager
+from core.data_processing.dataclasses.task import Task
+from core.data_processing.dataclasses.resourse import Resource
 
 # Greddy Scheduler
 

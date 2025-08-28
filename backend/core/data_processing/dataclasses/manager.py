@@ -1,5 +1,5 @@
-from dataclasses.task import Task
-from dataclasses.resourse import Resource
+from core.data_processing.dataclasses.task import Task
+from core.data_processing.dataclasses.resourse import Resource
 
 class TaskResourceManager:
     def __init__(self, interval_blocks:int, cicle_intervals:int):

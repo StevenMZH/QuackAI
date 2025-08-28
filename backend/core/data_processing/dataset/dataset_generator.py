@@ -5,7 +5,7 @@ from itertools import product
 from copy import deepcopy
 import numpy as np
 
-from model.dataset.problem_generator import generate_scheduling_problem
+from data_processing.dataset.problem_generator import generate_scheduling_problem
 from schedulers.scheduler import greedy_scheduler
 from schedulers.scheduler import (
     task_most_blocks, task_least_blocks, task_max_interval, task_min_interval,

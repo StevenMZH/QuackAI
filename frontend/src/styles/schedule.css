@@ -1,0 +1,52 @@
+
+.schedule-cell {
+    background-color: var(--bg-light);
+    /* border: 1px solid var(--highlight2); */
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.schedule-cell .cell-id{
+    background-color: var(--highlight2);
+    padding: 5px;
+    font-size: 10px;
+}
+
+.schedule-cell .cell-data{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 100%;
+    gap: 5px;
+}
+
+.schedule-cell .cell-tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 50%;
+
+    padding: 5px;
+    background-color: #0d438f33;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.schedule-cell .cell-resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 50%;
+
+    padding: 5px;
+    background-color: #0d438f33;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
