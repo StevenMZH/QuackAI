@@ -24,7 +24,7 @@
 
 /* Zona de drop */
 .p-6 {
-  padding: 6rem;
+  padding: clamp(1.5rem, 10vw, 6rem);
   maxHeight: 1.5em;
 }
 .cursor-pointer {
@@ -95,4 +95,18 @@
     padding: 20px;
     border-radius: 50px;
     background-color: var(--highlight2);
+}
+
+.file-name-txt {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-sec);
+    text-align: center;
+    padding: 10px;
+    max-width: 600px;
+    align-self: center;
+}
+
+.custom-width{
+  width: 300px;
 }

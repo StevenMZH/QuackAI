@@ -30,6 +30,8 @@ export async function parseCsvFileToJson(file) {
             : [],
           max_per_cicle: Number(d.max_per_cicle) || 0,
           max_per_interval: Number(d.max_per_interval) || 0,
+          min_per_cicle: Number(d.min_per_cicle) || 0,
+          min_per_interval: Number(d.min_per_interval) || 0,
         }));
 
       const resources = data
@@ -39,6 +41,8 @@ export async function parseCsvFileToJson(file) {
           tags: d.tags ? d.tags.split(";").map(t => t.trim()) : [],
           max_per_cicle: Number(d.max_per_cicle) || 0,
           max_per_interval: Number(d.max_per_interval) || 0,
+          min_per_cicle: Number(d.min_per_cicle) || 0,
+          min_per_interval: Number(d.min_per_interval) || 0,
         }));
 
       resolve({ tasks, resources });

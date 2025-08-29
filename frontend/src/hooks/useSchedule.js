@@ -13,8 +13,10 @@ export const useSchedule = () => {
     try {
       const data = await getSchedule(payload);
       setScheduleData(data);
+      return data;
     } catch (err) {
       setError(err);
+      throw err; 
     } finally {
       setLoading(false);
     }
