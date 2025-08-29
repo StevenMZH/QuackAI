@@ -3,7 +3,7 @@
   padding: 1rem;
 }
 .border-2 {
-  border-width: 8px;
+  border-width: 12px;
 }
 .border-dashed {
   border-style: dashed;
@@ -24,7 +24,8 @@
 
 /* Zona de drop */
 .p-6 {
-  padding: 1.5rem;
+  padding: 6rem;
+  maxHeight: 1.5em;
 }
 .cursor-pointer {
   cursor: pointer;
