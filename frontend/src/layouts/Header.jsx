@@ -8,10 +8,10 @@ export function Header() {
 
     return (
         <>
-            <div className="full-w row-left gap5">
+            <a className="home-button row-left gap5" href="/">
                 <img src="/duck.png" alt="Logo" className="logo"/>
                 <h1>Quack AI</h1>            
-            </div>
+            </a>
             <div className="full-w row-right gap10">
                 <ThemeSwitch />
             </div>

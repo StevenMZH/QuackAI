@@ -63,9 +63,14 @@ main {
     padding-top: 0;
 }
 
+.home-button{
+    width: clamp(200px,25vw,250px);
+    background-color: #00000000;
+    color: var(--text-sec);
+}
 
 /* a, buttom, input, select */
-a, button, input, select, textarea, option {
+button, input, select, textarea, option {
     padding: 10px;
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -80,7 +85,7 @@ a, button, input, select, textarea, option {
 a {
     text-decoration: none;
 }
-a, button{
+button{
     position: relative;
     overflow: hidden;        
     z-index: 0;     
@@ -88,7 +93,7 @@ a, button{
     font-size: 14px;
     font-weight: 700;
 }
-a::before,
+
 button::before{
   content: "";
   position: absolute;
