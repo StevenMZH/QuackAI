@@ -8,6 +8,9 @@
         width: 35px;
         height: 35px;
     }
+    body main{
+        padding: 0 10px;
+    }
     .mobile.sidebar-container {
         flex-direction: column-reverse;
         bottom: 0;
@@ -21,5 +24,32 @@
         border-radius: 10px 10px 0 0;
         bottom: 0;
     }
+    main .schedule-container {
+        padding: 10px;
+    }
+    main .schedule-container .schedule-grid {
+        gap: 2px;
+    }
+    main .schedule-cell {
+        border-radius: 5px;
+    }
+
     
+    main .schedule-container .cell-id div{
+        font-size: 0px;
+    }
+
+    main .schedule-cell .cell-data{
+        display: none;
+    }
+    
+    main .schedule-cell .cell-mobile{
+        display: flex;
+    }
+
+        
+    body .card .task-details .task-schedule-grid{
+        width: clamp(280px, 70vw, 350px);
+        height: clamp(280px, 70vw, 350px);
+    }
 }

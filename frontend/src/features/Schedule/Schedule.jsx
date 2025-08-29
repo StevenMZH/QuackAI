@@ -2,12 +2,12 @@ import ScheduleCell from "./ScheduleCell";
 
 export function Schedule({ blocks, intervals, grid, className = "" }) {
   return (
-    <div className={`card schedule-container ${className}`}>
+    <div className={`card schedule-container  ${className}`}>
+      <div className="schedule_title">Task & Reources Schedule</div>
       <div
         className="schedule-grid grid"
         style={{
           gridTemplateColumns: `repeat(${intervals}, 1fr)`,
-          gap: "2px",
         }}
       >
         {Array.from({ length: blocks }).map((_, blockIdx) =>

@@ -1,26 +1,30 @@
 import { useNavigate } from "react-router-dom";
 
-export function TaskResourceCell({ task, resources = [], className = '' }) {
+export function TaskResourceCell({ type, group = [], className = '' }) {
   const navigate = useNavigate();
 
   return (
     <div className="card task-resource-cell">
-      <button
-        className={`task-cell ${className}`}
-        onClick={() => navigate(`/schedule/task/${task}`)}
-      >
-        {task}
-      </button>
-
+      <div className="group-title">{type}</div>
       <div className="resource-cell-container">
-        {resources.length > 0 ? (
-          resources.map((resource, idx) => (
-            <button key={idx} className={`resource-cell ${className}`} onClick={() => navigate(`/schedule/resource/${resource}`)}>
-              {resource}
+        {group.length > 0 ? (
+          group.map((item, idx) => (
+            <button
+              key={idx}
+              className={`resource-cell ${className}`}
+              onClick={() =>
+                navigate(
+                  type === "Tasks"
+                    ? `/schedule/task/${item}`
+                    : `/schedule/resource/${item}`
+                )
+              }
+            >
+              {item}
             </button>
           ))
         ) : (
-          <div>No resources</div>
+          <div>No {type}</div>
         )}
       </div>
     </div>
