@@ -9,6 +9,7 @@
 @import url('./styles/PropsPanel.css');
 
 @import url('./styles/ThemeSwitch.css');
+@import url('./styles/fileUploader.css');
 
 div {
     border: 0;
@@ -110,9 +111,11 @@ input {
     cursor: pointer;
     transition: background-color 0.3s;
     line-height: 0;
-    width: 50px;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid var(--text-main);
     text-align: center;
+    height: 35px;
 }
 
 textarea {
