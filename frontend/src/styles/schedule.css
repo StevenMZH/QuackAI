@@ -9,12 +9,13 @@
 
 .schedule-cell {
     background-color: var(--bg-light);
-    /* border: 1px solid var(--highlight2); */
     border-radius: 10px;
     overflow: hidden;
     height: 100px;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    text-align: start;
 }
 
 
@@ -22,6 +23,7 @@
     background-color: var(--highlight2);
     padding: 5px;
     font-size: 10px;
+    font-weight: 600;
 }
 
 .schedule-cell .cell-data{
@@ -30,6 +32,8 @@
     padding: 5px;
     height: 100%;
     gap: 5px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .schedule-cell .cell-tasks{
@@ -58,3 +62,81 @@
     font-size: 12px;
 }
 
+.block-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task-resource-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar-container .task-resource-cell{
+    display: flex;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    gap: 0px;
+    /* border-color: var(--bg-dark); */
+    /* border-color: var(--highlight2); */
+}
+
+.task-resource-cell .task-cell{
+    display: flex;
+    padding: 10px;
+    background-color: var(--highlight2);
+    border: none;
+    color: var(--text-highlight);
+}
+
+.task-resource-cell .resource-cell-container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    background-color: var(--bg-light);
+}
+
+.task-resource-cell .resource-cell{
+    display: flex;
+    padding: 7px;
+    background-color: var(--bg-dark);
+    background-color: var(--highlight2);
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 00;
+    color: var(--text-highlight);
+}
+
+.task-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: start;
+}
+.card .task-details .task-schedule-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+.card .task-details .task-schedule-grid{
+    row-gap: clamp(2px,1vw,12px);
+    column-gap: clamp(3px,2vw,15px);
+}
+.task-details .grid-cell {
+    gap: 0px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--text-main);
+    border-radius: 4px;
+}
+.task-details .assigned {
+    background-color: var(--highlight2);
+}
