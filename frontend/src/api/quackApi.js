@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const quackApi = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://api.dev.quack-ai.purpleblue.site",
 });
 
 quackApi.interceptors.response.use(
