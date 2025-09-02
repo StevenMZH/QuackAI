@@ -1,5 +1,16 @@
 # QuackAI <img src="frontend/public/duck.png" width="30">
 
+**QuackAI** is an Intelligent Scheduler that leverages Artificial Intelligence to optimize task and resource allocation.  
+The core idea is simple yet powerful: the AI model predicts the most suitable heuristic for a greedy algorithm, adapting to the specific characteristics of each scheduling problem.  
+
+By combining predictive modeling with heuristic-driven optimization, the system ensures:
+- Efficient task and resource assignments.  
+- Adaptability to different scheduling scenarios.  
+- Reduced errors and improved balance compared to manual scheduling.  
+
+This project demonstrates how AI can enhance classical greedy algorithms, making them more effective in solving complex scheduling and resource management problems.
+
+
 ### 🖥️ Frontend
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
